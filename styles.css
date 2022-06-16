@@ -1,0 +1,36 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+    max-width: 250px;
+    position: relative;
+    padding-top: 150px;
+}
+ .container p{
+    color: hsl(220, 15%, 55%);
+    font-size: 16px;
+ }
+
+.child{
+    box-shadow: 5px 8px 15px hsl(217, 10%, 37%);
+    border-radius: 3%;
+    background-color: white;
+    padding: .5em;
+    font-size: 20px;
+    position: absolute;
+}
+
+ .child img{
+    height: 200px;
+    width: 200px;
+    border-radius: 4%;
+ }
+   
